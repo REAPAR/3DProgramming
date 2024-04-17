@@ -221,6 +221,7 @@ bool Application::Init(int w, int h)
 	//===================================================================
 	KdAudioManager::Instance().Init();
 
+	test = 5;//こいつ絶対消す
 	return true;
 }
 
